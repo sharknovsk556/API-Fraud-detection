@@ -7,15 +7,10 @@ Depois acesse:
 
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/health
-
-Instalação Necessaria
-## Como rodar
-pip install -r requirements.txt
-python train_model.py
-uvicorn src.main:app --reload
-
 ## Testes
 pytest -q
 
 ## Exemplo de requisição
-POST /predict
+pip install -r requirements.txt
+python train_model.py
+uvicorn src.main:app --reload
