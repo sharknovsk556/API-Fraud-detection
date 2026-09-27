@@ -1,6 +1,6 @@
 # API-Fraud-detection
 :)
-como usar 
+como usar Rode no Terminal o comando abaixo porem altere o local da instação aonde foi realizada no caso seu usuario representado no commando abaixo
 cd "C:\Users\usuario\Downloads\fraud-detection-api"
 .\.venv\Scripts\python.exe -m uvicorn src.main:app --reload --host 127.0.0.1 --port 8000
 Depois acesse:
